@@ -1,0 +1,42 @@
+{
+  "name": "jeff-cdk-example",
+  "version": "0.1.1",
+  "scripts": {
+    "ts-node": "ts-node",
+    "tsc": "tsc",
+    "build": "tsc -b",
+    "watch": "tsc -w",
+    "clean": "tsc -b --clean",
+    "cdk": "cdk",
+    "cdk-synth": "cdk synth",
+    "cdk-diff": "cdk diff || true",
+    "cdk-deploy": "cdk deploy",
+    "cdk-bootstrap": "cdk bootstrap",
+    "generate-config": "ts-node ./src/generateConfig.ts"
+  },
+  "devDependencies": {
+    "@aws-cdk/core": "*",
+    "@types/aws-lambda": "^8.10.33",
+    "@types/node": "^12.11.2",
+    "aws-cdk": "*",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "*",
+    "@aws-cdk/aws-cloudfront": "*",
+    "@aws-cdk/aws-cognito": "*",
+    "@aws-cdk/aws-dynamodb": "*",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/aws-s3": "*",
+    "@aws-cdk/aws-sam": "*",
+    "@aws-cdk/core": "*",
+    "aws-sdk": "*",
+    "source-map-support": "^0.5.13"
+  },
+  "dependenciesMeta": {
+    "@aws-cdk/core": {
+      "unplugged": true
+    }
+  }
+}
