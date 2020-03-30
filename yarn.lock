@@ -937,31 +937,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jeffs/test@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@jeffs/test@workspace:."
-  dependencies:
-    "@aws-cdk/aws-apigateway": "*"
-    "@aws-cdk/aws-cloudfront": "*"
-    "@aws-cdk/aws-cognito": "*"
-    "@aws-cdk/aws-dynamodb": "*"
-    "@aws-cdk/aws-lambda": "*"
-    "@aws-cdk/aws-s3": "*"
-    "@aws-cdk/aws-sam": "*"
-    "@aws-cdk/core": "*"
-    "@types/aws-lambda": ^8.10.33
-    "@types/node": ^12.11.2
-    aws-cdk: "*"
-    aws-sdk: "*"
-    source-map-support: ^0.5.13
-    ts-node: ^8.4.1
-    typescript: ^3.7.2
-  dependenciesMeta:
-    "@aws-cdk/core":
-      unplugged: true
-  languageName: unknown
-  linkType: soft
-
 "@types/aws-lambda@npm:^8.10.33":
   version: 8.10.46
   resolution: "@types/aws-lambda@npm:8.10.46"
@@ -1838,6 +1813,28 @@ __metadata:
   checksum: 2/b0ff31a290e783f7b3fb73f2951ee7fc2946dc197b05f73577dc77f87dc3be2e0f66007bedf069123d4e5c4b691e7c89a241f6ca06f0c0f4765cdac5aa4b4047
   languageName: node
   linkType: hard
+
+"jeff-cdk-example@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "jeff-cdk-example@workspace:."
+  dependencies:
+    "@aws-cdk/aws-apigateway": "*"
+    "@aws-cdk/aws-cloudfront": "*"
+    "@aws-cdk/aws-cognito": "*"
+    "@aws-cdk/aws-dynamodb": "*"
+    "@aws-cdk/aws-lambda": "*"
+    "@aws-cdk/aws-s3": "*"
+    "@aws-cdk/aws-sam": "*"
+    "@aws-cdk/core": "*"
+    "@types/aws-lambda": ^8.10.33
+    "@types/node": ^12.11.2
+    aws-cdk: "*"
+    aws-sdk: "*"
+    source-map-support: ^0.5.13
+    ts-node: ^8.4.1
+    typescript: ^3.7.2
+  languageName: unknown
+  linkType: soft
 
 "jmespath@npm:0.15.0":
   version: 0.15.0
